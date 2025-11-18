@@ -5,6 +5,7 @@ public class Producto {
     private String nombre;
     private String sku;
     private int cantidad;
+    private String color;
     private double precio;
 
     public Producto(String nombre, String sku, int cantidad, double precio) {
