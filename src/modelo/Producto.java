@@ -5,13 +5,14 @@ public class Producto {
     private String nombre;
     private String sku;
     private int cantidad;
+    private String color;
     private double precio;
 
     public Producto(String nombre, String sku, int cantidad, double precio) {
         this.nombre = nombre;
         this.sku = sku;
         this.cantidad = cantidad;
-        this.precio = precio;
+        this.precio = precio;   
     }
 
     public String getNombre() { return nombre; }
